@@ -10,7 +10,7 @@ options(width=80)
 
 
 ## Import datasets needed for chapter 5
-PSDS_PATH <- file.path('~', 'statistics-for-data-scientists')
+PSDS_PATH <- file.path('~/Desktop', 'statistics-for-data-scientists')
 
 loan3000 <- read.csv(file.path(PSDS_PATH, 'data', 'loan3000.csv'))
 loan_data <- read.csv(file.path(PSDS_PATH, 'data', 'loan_data.csv'))

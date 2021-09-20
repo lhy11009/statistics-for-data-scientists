@@ -5,7 +5,7 @@ library(ascii)
 library(lubridate)
 library(readr)
 
-PSDS_PATH <- file.path('~', 'statistics-for-data-scientists')
+PSDS_PATH <- file.path('~/Desktop', 'statistics-for-data-scientists')
 ## source code to create the data used for the book; this is not ready for public consumption and
 ## is not needed to run any example in the book
 ## The data for the book can be downloaded using the script in download_data.t

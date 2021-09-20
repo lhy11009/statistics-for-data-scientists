@@ -16,7 +16,7 @@ IMPORTANT NOTE:
 The scripts all assume that you have cloned the repository into the top level home directory (~/)
 If you save the repository elsewhere, you will need to edit the line
 
-  PSDS_PATH <- file.path('~', 'statistics-for-data-scientists')
+  PSDS_PATH <- file.path('~/Desktop', 'statistics-for-data-scientists')
 
 to point to the appropriate directory in all of the scripts.
 

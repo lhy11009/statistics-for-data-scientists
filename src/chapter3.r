@@ -2,7 +2,7 @@ library(ggplot2)
 library(dplyr)
 library(lmPerm)
 
-PSDS_PATH <- file.path('~', 'statistics-for-data-scientists')
+PSDS_PATH <- file.path('~/Desktop', 'statistics-for-data-scientists')
 
 session_times <- read.csv(file.path(PSDS_PATH, 'data', 'web_page_data.csv'))
 session_times[,2] <- session_times[,2] * 100

@@ -8,7 +8,7 @@ library(splines)
 library(mgcv)
 
 ## Import datasets needed for chapter 4
-PSDS_PATH <- file.path('~', 'statistics-for-data-scientists')
+PSDS_PATH <- file.path('~/Desktop', 'statistics-for-data-scientists')
 
 lung <- read.csv(file.path(PSDS_PATH, 'data', 'LungDisease.csv'))
 

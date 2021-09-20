@@ -10,7 +10,7 @@ library(cluster)
 
 ###############################################################
 ## Import datasets needed for chapter 7
-PSDS_PATH <- file.path('~', 'statistics-for-data-scientists')
+PSDS_PATH <- file.path('~/Desktop', 'statistics-for-data-scientists')
 
 sp500_px <- read.csv(file.path(PSDS_PATH, 'data', 'sp500_px.csv'), row.names = 1)
 sp500_sym <- read.csv(file.path(PSDS_PATH, 'data', 'sp500_sym.csv'), stringsAsFactors = FALSE)

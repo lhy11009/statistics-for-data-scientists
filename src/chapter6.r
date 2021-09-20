@@ -8,7 +8,7 @@ library(xgboost)
 ###############################################################
 
 ## Import datasets needed for chapter 6
-PSDS_PATH <- file.path('~', 'statistics-for-data-scientists')
+PSDS_PATH <- file.path('~/Desktop', 'statistics-for-data-scientists')
 
 loan200 <- read.csv(file.path(PSDS_PATH, 'data', 'loan200.csv'))
 loan200$outcome <- ordered(loan200$outcome, levels=c('paid off', 'default'))
